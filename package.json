@@ -1,0 +1,28 @@
+{
+  "name": "cdict_query_test",
+  "version": "1.0.0",
+  "description": "英中词典 提供词典查询功能，文件来自ECDICT",
+  "main": "demo.js",
+  "type": "commonjs",
+  
+  "scripts": {
+    "test": "node demo.js "
+  },
+  "keywords": [
+    "dict",
+    "command line",
+    "chinese",
+    "英汉词典",
+    "memorize",
+    "dictionary"
+  ],
+  "author": "nextuser@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "cdict_query":"1.0.0"
+  }
+
+
+
+}
+

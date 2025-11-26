@@ -1,0 +1,50 @@
+{
+  "name": "cdict_query",
+  "version": "1.0.0",
+  "description": "英中词典 提供词典查询功能，文件来自ECDICT",
+  "main": "lib/db.js",
+  
+  "scripts": {
+    "test": "node test.js "
+  },
+  "keywords": [
+    "dict",
+    "command line",
+    "chinese",
+    "英汉词典",
+    "memorize",
+    "dictionary"
+  ],
+  "author": "nextuser@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.2",
+    "progress": "^2.0.3",
+    "sqlite3": "^5.1.7"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "lib",
+    "db/*.db",
+    "package.json",
+    "package-lock.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextuser/cdict_query"
+  },
+  "files":[
+    "bin",
+    "lib",
+    "db/*.db",
+    "package.json",
+    "package-lock.json",
+    "LICENSE",
+    "README.md"
+  ]
+}

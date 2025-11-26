@@ -22,5 +22,25 @@ CREATE TABLE IF NOT EXISTS "stardict" (
 
 #  测试
 
+## 发布到npm
+```shell
+cd npm
+unset https_proxy
+unset http_proxy
+unset all_proxy
+unset HTTPS_PROXY
+unset HTTP_PROXY
+unset ALL_PROXY
+npm publish --registry=https://registry.npmjs.org/
 
+```
+# 本地调试
+```shell
+ cd npm 
+```
 # 使用
+```shell
+cd test
+npm link ../npm
+npm run test
+```
