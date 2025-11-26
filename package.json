@@ -1,7 +1,7 @@
 {
   "name": "cdict_query_test",
   "version": "1.0.0",
-  "description": "英中词典 提供词典查询功能，文件来自ECDICT",
+  "description": "英中词典库，提供根据英文查询中文含义 音标 词频 分类等信息",
   "main": "demo.js",
   "type": "commonjs",
   
