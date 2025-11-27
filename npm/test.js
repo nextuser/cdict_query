@@ -19,3 +19,5 @@ oldDb.all(selectSql, (err, rows) => {
         console.log(row.word,row.translation);
     })
 });
+
+

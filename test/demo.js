@@ -15,14 +15,6 @@ async function queryDatas(n = 10){
   if(!db) {
     console.log("connect db failed, use DEBUG=1 to show debug info");
   }
-  // if(db){
-  //   let sql = `SELECT * FROM ${cq.getTableName()} order by random() LIMIT ?`;
-  //   console.log("queryDatas sql:\n",sql);
-  //   console.log("queryDatas n:",n);
-    
-  //   let rows = await db.all(sql, [n]);
-  //   console.log("queryDatas results:",rows);
-  // }
 
   let sql = `SELECT * FROM ${cq.getTableName()} order by random() LIMIT ${n}`
   db.all(sql, (err, rows) => {
