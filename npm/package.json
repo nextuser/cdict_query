@@ -1,6 +1,6 @@
 {
   "name": "cdict_query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提供根据英文查询中文含义 音标 词频 分类等信息，原始数据从ECDICT抽取获得",
   "main": "lib/db.js",
   
@@ -26,7 +26,7 @@
     "bin",
     "commands",
     "lib",
-    "db/*.db",
+    "db/cdictfull.db",
     "package.json",
     "package-lock.json",
     "LICENSE",
