@@ -1,6 +1,6 @@
 {
   "name": "cdict_query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "提供根据英文查询中文含义 音标 词频 分类等信息，原始数据从ECDICT抽取获得",
   "main": "lib/db.js",
   
@@ -31,7 +31,10 @@
     "package-lock.json",
     "LICENSE",
     "README.md",
-    "test.js"
+    "test.js",
+    "vk_add_tag.js",
+    "vk_verify.js",
+    "vkwords.js"
   ],
   "repository": {
     "type": "git",
